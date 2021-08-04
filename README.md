@@ -1,4 +1,4 @@
-Add OAuth to a Code Engine React App w IBM App ID
+#Add OAuth to a Code Engine React App w IBM App ID
 
 Create an IBM Cloud Pay-As-You-Go Account
 
@@ -16,7 +16,7 @@ Add a **Name**, and select **Single-page application** from the **Type** dropdow
 Expand and view the app credentials. Note the **cliendID** and the **discoveryEndpoint**. We'll need these later.
 
 
-## Create a React App
+##Create a React App
 
 Create a React app or use the [sample app](https://github.com/IBM-Developer-Austin/appid-sample-code-snippets).
 

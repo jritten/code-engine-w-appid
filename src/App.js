@@ -15,8 +15,8 @@ function App() {
     (async () => {
         try {
           await appID.init({
-            clientId: '<ADD_CLIENT_ID>',
-            discoveryEndpoint: '<ADD_DISCOVERY_ENDPOINT'
+            clientId: 'CLIENT_ID',
+            discoveryEndpoint: 'DISCOVERY_ENDPOINT'
           });
         } catch (e) {
           console.error(e);

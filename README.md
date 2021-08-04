@@ -24,7 +24,7 @@ Create a React app or use the [sample app](https://github.com/IBM-Developer-Aust
 
 Uninstall `create-react-app` command globally from both npm and yarn:
 uninstall from npm
-`npm uninstall -g create-react-app `
+`npm uninstall -g create-react-app`
 uninstall from yarn
 `yarn global remove create-react-app`
 
@@ -126,10 +126,16 @@ ibmcloud ce application create --name <APP_NAME> --image <DOCKER_ID>/<IMAGE_NAME
 ```
 
 
+## Update the Port to 3001
+
+
 ## View the Deployed Application
 
 
 ## Add App ID Credentials to Code Engine Dashboard
+
+bind the app to the app id instance
+$ ibmcloud ce app bind --name ce-w-appid --service-instance ce-app-id
 
 
 ##Login to the App w App ID OAuth!

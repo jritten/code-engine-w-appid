@@ -1,9 +1,9 @@
-#Add OAuth to a Code Engine React App w IBM App ID
+# Add OAuth to a Code Engine React App w IBM App ID
 
 Create an IBM Cloud Pay-As-You-Go Account
 
 
-##Create an Instance of App ID
+## Create an Instance of App ID
 
 Create an App ID Instance; Choose the Lite Tier Plan
 
@@ -16,7 +16,7 @@ Add a **Name**, and select **Single-page application** from the **Type** dropdow
 Expand and view the app credentials. Note the **cliendID** and the **discoveryEndpoint**. We'll need these later.
 
 
-##Create a React App
+## Create a React App
 
 Create a React app or use the [sample app](https://github.com/IBM-Developer-Austin/appid-sample-code-snippets).
 
@@ -37,7 +37,7 @@ Move into your project directory:
 `cd ce-app-id`
 
 
-##Add App ID to the App
+## Add App ID to the App
 
 Install the IBM Cloud App ID SDK:
 `npm install ibmcloud-appid-js`
@@ -63,13 +63,13 @@ Start the application, and run it locally:
 Update the **redirect_uri** in the App ID dashboard in the **Authentication Settings** under the **Manage Authentication** tab on the left.
 
 
-##View the Live Application
+## View the Live Application
 
 View your locally deployed application!
 `http://localhost:3000` or `http://localhost:3000`
 
 
-##Push Your Code to GitHub
+## Push Your Code to GitHub
 
 Create a new GitHub repository; add a **Repository name**, and click **Create repository**.
 
@@ -86,7 +86,7 @@ git push -u origin main
 Now you're good to go!
 
 
-##Build a Container Image with Docker Hub with the Code Engine CLI
+## Build a Container Image with Docker Hub with the Code Engine CLI
 
 Set up registry access to your Docker Hub account.
 ```
@@ -115,10 +115,10 @@ If there's a problem with the build run, display the logs.
 ```
 
 
-##Build a Container Image with IBM Container Registry with the Code Engine CLI
+## Build a Container Image with IBM Container Registry with the Code Engine CLI
 
 
-##Deploy the App to Code Engine
+## Deploy the App to Code Engine
 
 Deploy the image to Code Engine.
 ```
@@ -126,13 +126,16 @@ ibmcloud ce application create --name <APP_NAME> --image <DOCKER_ID>/<IMAGE_NAME
 ```
 
 
-##View the Deployed Application
+## View the Deployed Application
 
 
-##Add App ID Credentials to Code Engine Dashboard
+## Add App ID Credentials to Code Engine Dashboard
 
 
 ##Login to the App w App ID OAuth!
+
+
+
 
 
 
